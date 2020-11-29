@@ -12,8 +12,9 @@ public class Ejercicio1 {
 		nombre=leer.next();
 		
 		for(int i = nombre.length();i>=0;i--) {
-			System.out.println(nombre.substring(i,i));
+			System.out.println(nombre.substring(i,i-1));
 		}
+
 
 	}
 
